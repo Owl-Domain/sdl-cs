@@ -5,3 +5,5 @@ global using Microsoft.VisualStudio.TestTools.UnitTesting;
 #else
 [assembly: Parallelize(Scope = ExecutionScope.MethodLevel, Workers = 0)]
 #endif
+
+[assembly: TestDataSourceDiscovery(TestDataSourceDiscoveryOption.DuringExecution)]

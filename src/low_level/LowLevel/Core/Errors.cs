@@ -22,10 +22,11 @@ partial class SDL
 	/// The returned value is a thread-local string which will remain valid until the current thread's error string is changed.
 	/// The caller should make a copy if the value is needed after the next SDL API call.<br/>
 	/// <br/>
-	/// This function is available since SDL 3.2.0 as <c>SDL_GetError</c>, and it is thread-safe.
+	/// This function is available since SDL 3.2.0 as <c>SDL_GetError</c>, and it is thread-safe.<br/>
+	/// <br/>
+	/// Wiki: <seealso href="https://wiki.libsdl.org/SDL3/SDL_GetError"/>.
 	/// </remarks>
 	/// <seealso cref="ClearError"/>
-	/// <seealso href="https://wiki.libsdl.org/SDL3/SDL_GetError"/>
 	[LibraryImport(LibName, EntryPoint = "SDL_GetError")]
 	[UnmanagedCallConv(CallConvs = [typeof(CallConvCdecl)])]
 	public static partial SDLString GetError();
@@ -33,9 +34,10 @@ partial class SDL
 	/// <summary>Clears any previous error message for this thread.</summary>
 	/// <returns>Always returns <see langword="true"/>.</returns>
 	/// <remarks>
-	/// This function is available since SDL 3.2.0 as <c>SDL_ClearError</c>, and it is thread-safe.
+	/// This function is available since SDL 3.2.0 as <c>SDL_ClearError</c>, and it is thread-safe.<br/>
+	/// <br/>
+	/// Wiki: <seealso href="https://wiki.libsdl.org/SDL3/SDL_ClearError"/>.
 	/// </remarks>
-	/// <seealso href="https://wiki.libsdl.org/SDL3/SDL_ClearError"/>
 	[LibraryImport(LibName, EntryPoint = "SDL_ClearError")]
 	[UnmanagedCallConv(CallConvs = [typeof(CallConvCdecl)])]
 	[return: MarshalAs(BoolType)]
@@ -44,9 +46,10 @@ partial class SDL
 	/// <summary>Sets an error indicating that memory allocation failed.</summary>
 	/// <returns>Always returns <see langword="false"/>.</returns>
 	/// <remarks>
-	/// This function is available since SDL 3.2.0 as <c>SDL_OutOfMemory</c>, and it is thread-safe.
+	/// This function is available since SDL 3.2.0 as <c>SDL_OutOfMemory</c>, and it is thread-safe.<br/>
+	/// <br/>
+	/// Wiki: <seealso href="https://wiki.libsdl.org/SDL3/SDL_OutOfMemory"/>.
 	/// </remarks>
-	/// <seealso href="https://wiki.libsdl.org/SDL3/SDL_OutOfMemory"/>
 	[LibraryImport(LibName, EntryPoint = "SDL_OutOfMemory")]
 	[UnmanagedCallConv(CallConvs = [typeof(CallConvCdecl)])]
 	[return: MarshalAs(BoolType)]
