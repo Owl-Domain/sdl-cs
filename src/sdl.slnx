@@ -1,1 +1,5 @@
-<Solution />
+<Solution>
+  <Folder Name="/low_level/">
+    <Project Path="low_level/LowLevel/LowLevel.csproj" />
+  </Folder>
+</Solution>
