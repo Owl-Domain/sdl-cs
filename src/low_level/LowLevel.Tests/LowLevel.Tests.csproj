@@ -1,0 +1,21 @@
+﻿<Project Sdk="MSTest.Sdk/4.0.1">
+
+	<!-- Project -->
+	<PropertyGroup Label="project">
+		<TargetFrameworks>net9.0</TargetFrameworks>
+		<LangVersion>14</LangVersion>
+		<Nullable>enable</Nullable>
+
+		<AssemblyName>OwlDomain.SDL3.LowLevel.Tests</AssemblyName>
+		<RootNamespace>OwlDomain.SDL3.LowLevel.Tests</RootNamespace>
+
+		<UseVSTest>true</UseVSTest>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+
+	<!-- Project references -->
+	<ItemGroup Label="projects">
+		<ProjectReference Include="..\LowLevel\LowLevel.csproj" />
+	</ItemGroup>
+
+</Project>
