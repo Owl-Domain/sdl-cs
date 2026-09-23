@@ -30,7 +30,7 @@
 		<Copyright>Copyright (c) OwlDomain 2026 - $([System.DateTime]::UtcNow.Year)</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 
-		<RepositoryUrl>https://github.com/Owl-Domain/sdl-cs/.git</RepositoryUrl>
+		<RepositoryUrl>https://github.com/Owl-Domain/sdl-cs.git</RepositoryUrl>
 		<PackageProjectUrl>https://www.github.com/Owl-Domain/sdl-cs</PackageProjectUrl>
 
 		<PackageReadmeFile>readme.md</PackageReadmeFile>
