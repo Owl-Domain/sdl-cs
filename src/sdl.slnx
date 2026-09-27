@@ -3,4 +3,5 @@
     <Project Path="low_level/LowLevel.Tests/LowLevel.Tests.csproj" />
     <Project Path="low_level/LowLevel/LowLevel.csproj" />
   </Folder>
+  <Project Path="AotTest/AotTest.csproj" />
 </Solution>
