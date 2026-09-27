@@ -43,7 +43,7 @@
 
 	<!-- Package files -->
 	<ItemGroup Label="content">
-		<None Pack="true" PackagePath="" Include="../icon.png" Link="meta/icon.png" />
+		<None Pack="true" PackagePath="" Include="../../icon.png" Link="meta/icon.png" />
 		<None Pack="true" PackagePath="" Include="meta/readme.md" />
 		<None Pack="true" PackagePath="" Include="meta/changelog.md" />
 	</ItemGroup>
