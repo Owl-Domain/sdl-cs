@@ -18,4 +18,9 @@
 		<ProjectReference Include="..\LowLevel\LowLevel.csproj" />
 	</ItemGroup>
 
+	<!-- Copy info files -->
+	<ItemGroup>
+		<None Include="Info/*.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+	</ItemGroup>
+
 </Project>

@@ -19,8 +19,8 @@ internal sealed class SDLNameInfo
 	#region Functions
 	public static SDLNameInfo Load()
 	{
-		const string relativePath = "../../../../Info/sdl_names.json";
-		string path = Path.GetFullPath(relativePath);
+		const string relativePath = "Info/sdl_names.json";
+		string path = Path.GetFullPath(relativePath, AppContext.BaseDirectory);
 
 		string json = File.ReadAllText(path);
 		SDLNameInfo? names = JsonSerializer.Deserialize<SDLNameInfo>(json) ?? throw new InvalidOperationException($"Failed to load the SDL names from the '{path}' json file.");
