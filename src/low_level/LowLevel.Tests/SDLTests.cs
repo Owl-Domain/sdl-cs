@@ -84,6 +84,8 @@ public sealed class SDLTests
 
 	private static bool IsNameSimilarEnough(string functionName, string entryPoint)
 	{
+		functionName = functionName.Trim('_');
+
 		ReadOnlySpan<string?> checks =
 		[
 			entryPoint,
